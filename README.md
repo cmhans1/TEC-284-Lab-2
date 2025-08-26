@@ -29,7 +29,7 @@ void setup() {
 //add an if statement
 if(timesToBlink > 4)
 {
-timesToBlink = 4;
+timesToBlink = 10;
 }
 //create an integer
 (int) timesToBlink = 1;
