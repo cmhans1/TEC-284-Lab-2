@@ -26,10 +26,10 @@ This code will blink the LED on the Arduino board.
 
 // the setup function runs once when you press reset or power the board
 void setup() {
-//for loop
-for (int i = 0, i < 10; i++);
+//while loop
+while(LED = HIGH)
 {
-digitalWrite(1,HIGH);
+digitalWrite(timesToBlink, HIGH);
 }
 //create an integer
 (int) timesToBlink = 1;
