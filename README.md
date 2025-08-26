@@ -28,7 +28,9 @@ This code will blink the LED on the Arduino board.
 void setup() {
 //for loop
 for (int i = 0, i < 10; i++);
-
+{
+digitalWrite(1,HIGH);
+}
 //create an integer
 (int) timesToBlink = 1;
 timesToBlink = timesToBlink + 2 * 4;
