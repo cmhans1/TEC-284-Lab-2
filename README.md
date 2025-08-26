@@ -26,11 +26,9 @@ This code will blink the LED on the Arduino board.
 
 // the setup function runs once when you press reset or power the board
 void setup() {
-//add an if statement
-if(timesToBlink > 4)
-{
-timesToBlink = 10;
-}
+//for loop
+for (int i = 0, i < 10; i++);
+
 //create an integer
 (int) timesToBlink = 1;
 timesToBlink = timesToBlink + 2 * 4;
